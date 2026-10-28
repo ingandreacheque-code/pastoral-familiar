@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173d35">
+  <title>Pastoral Familiar</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #26352e;
+      background: #fbf8f0;
+      text-align: center;
+    }
+    header {
+      background: #173d35;
+      color: white;
+      padding: 28px 16px;
+    }
+    header p { color: #e8d59b; }
+    nav {
+      background: white;
+      padding: 15px 8px;
+    }
+    nav a {
+      color: #173d35;
+      text-decoration: none;
+      margin: 8px;
+      font-weight: bold;
+    }
+    main { padding: 35px 18px; }
+    h1 { color: #173d35; font-size: 34px; }
+    .tarjetas {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 16px;
+      max-width: 900px;
+      margin: 28px auto;
+    }
+    .tarjeta {
+      background: white;
+      border-radius: 14px;
+      padding: 22px;
+      box-shadow: 0 3px 12px #00000010;
+    }
+    .boton {
+      display: inline-block;
+      background: #173d35;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin: 8px;
+    }
+    footer {
+      background: #173d35;
+      color: white;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>✝ Pastoral Familiar</h2>
+    <p>Con Cristo, salgamos a sembrar</p>
+  </header>
+
+  <nav>
+    <a href="#encuentros">Encuentros</a>
+    <a href="#formacion">Formación</a>
+    <a href="#inscripciones">Inscripciones</a>
+  </nav>
+
+  <main>
+    <h1>Familias que crecen juntas en la fe</h1>
+    <p>Un espacio para encontrarnos con Jesús y fortalecer nuestros hogares.</p>
+    <a class="boton" href="#encuentros">Ver encuentros</a>
+
+    <section id="encuentros">
+      <h2>Próximos encuentros</h2>
+      <div class="tarjetas">
+        <article class="tarjeta">
+          <h3>Familias sembradoras de paz</h3>
+          <p>Un encuentro para fortalecer el diálogo y la convivencia familiar.</p>
+          <p><strong>Fecha:</strong> Por confirmar</p>
+        </article>
+        <article class="tarjeta">
+          <h3>Oración en familia</h3>
+          <p>Aprendamos a compartir la Palabra de Dios en nuestros hogares.</p>
+          <p><strong>Fecha:</strong> Por confirmar</p>
+        </article>
+        <article class="tarjeta" id="formacion">
+          <h3>Formación familiar</h3>
+          <p>Recursos y actividades para crecer juntos en la fe.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="inscripciones">
+      <h2>Inscríbete a nuestras actividades</h2>
+      <p>Pronto podrás registrarte en los encuentros de la comunidad.</p>
+      <a class="boton" href="https://forms.google.com/">
+        Ir al formulario
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <strong>Pastoral Familiar</strong>
+    <p>Con Cristo, salgamos a sembrar</p>
+  </footer>
+</body>
+</html>
